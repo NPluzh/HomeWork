@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="name"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="42sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPhoneName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="you number"
+        android:inputType="phone"
+        android:text=""
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/editTextTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="you age"
+        android:inputType="number"
+        android:text=""
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/editTextNickName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nickname"
+        android:inputType="text"
+        android:text=""
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e-mail"
+        android:inputType="textEmailAddress"
+        android:text=""
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:text=""
+        android:textSize="20sp" />
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
